@@ -1,0 +1,45 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small,
+b{ 
+  font-family: 'Lato', sans-serif; 
+}
+
+div.login-card {
+  width: 55vh;
+  margin-top: 27vh;
+  box-shadow: 0 4px 20px -5px var(--info);
+}
+
+.user-image{
+  box-shadow: 0 4px 20px -5px var(--info);
+}
+
+#ajax-error{
+  display: none;
+  padding: 0;
+  box-shadow: 0 4px 20px -5px var(--danger);
+}
+
+.form-control:focus, .btn-outline-primary.focus, .btn-outline-primary:focus{
+  box-shadow: 0 4px 20px -5px var(--info);
+}
+
+.btn-outline-warning.focus, .btn-outline-warning:focus{
+  box-shadow: 0 4px 20px -5px var(--warning);
+}
+
+.custom-select.is-invalid:focus, .form-control.is-invalid:focus, .was-validated .custom-select:invalid:focus, .was-validated .form-control:invalid:focus{
+  box-shadow: 0 4px 20px -5px var(--danger);
+}
+
+.custom-select.is-valid:focus, .form-control.is-valid:focus, .was-validated .custom-select:valid:focus, .was-validated .form-control:valid:focus{
+  box-shadow: 0 4px 20px -5px var(--success);
+}
